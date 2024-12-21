@@ -1,0 +1,93 @@
+/* Global settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Hero section with background image */
+.hero {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Content container */
+.content-container {
+    text-align: center;
+}
+
+/* Welcome box with rounded corners */
+.welcome-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 800px;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+}
+
+/* Heading style */
+.welcome-box h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph style */
+.welcome-box p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Start button style */
+.start-button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.start-button img {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+/* Hover effect for button */
+.start-button:hover {
+    background-color: #45a049;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    .welcome-box {
+        padding: 30px;
+        width: 90%;
+    }
+
+    .welcome-box h1 {
+        font-size: 28px;
+    }
+
+    .welcome-box p {
+        font-size: 16px;
+    }
+}
